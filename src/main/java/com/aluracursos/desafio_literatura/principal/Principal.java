@@ -36,9 +36,9 @@ public class Principal {
                 **********************************************
                 """;
 
-        int opcion = 0 ;
+        int opcion = -1 ;
 
-        while (opcion != 9) {
+        while (opcion != 0) {
             System.out.println(menu);
             opcion = teclado.nextInt();
             switch (opcion) {
@@ -69,7 +69,7 @@ public class Principal {
                     String idioma = lectura.nextLine();
                     libroService.listarLibroPorIdioma(idioma);
                     break;
-                case 9:
+                case 0:
                     System.out.println("Gracias por usar el buscador de libros");
                     break;
                 default:
