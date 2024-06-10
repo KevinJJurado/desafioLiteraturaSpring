@@ -1,5 +1,5 @@
-![titulo](https://github.com/KevinJJurado/ConversorMonedaKevinJurado/assets/128235203/05808e13-815c-49e6-8bc2-15515150f6ec)
-
+![titulo](https://github.com/KevinJJurado/desafioLiteraturaSpring/assets/128235203/869b42f3-d43e-40b0-870c-c99e36caa2f0)
+# DESAFIO LITERALURA
 # Menú 
 - [Descripción](#Descripción)
 - [funcionalidades](#Funcionalidades)
@@ -10,24 +10,46 @@
 - [Créditos](#Créditos)
 
 # Descripción
-El Conversor de Moneda es una aplicación Java que permite convertir entre diferentes monedas utilizando las tasas de cambio actuales. Esta aplicación se conecta a una API de tasas de cambio para obtener las últimas tasas de conversión.
+Este desafío de literatura tiene como objetivo crear una aplicación de consola para buscar libros y autores utilizando Spring Boot, una base de datos PostgreSQL y la API Gutendex. La aplicación permite a los usuarios buscar libros por título, listar todos los libros registrados, listar todos los autores registrados, buscar autores que estuvieron vivos en un año específico y buscar libros por idioma.
 
 # Funcionalidades
-Conversión entre diferentes monedas.
-Actualización automática de las tasas de cambio a través de la API.
+- Búsqueda de Libros por Título: Los usuarios pueden ingresar el título de un libro y la aplicación buscará y mostrará todos los libros que coincidan con el título proporcionado.
 
-# Instalación
-Clona este repositorio a tu máquina local.
-Abre el proyecto en tu IDE de Java preferido (por ejemplo, IntelliJ IDEA, Eclipse, NetBeans).
-Configura las dependencias necesarias. Puedes agregar las bibliotecas necesarias al proyecto o utilizar sistemas de gestión de dependencias como Maven o Gradle.
-Compila el proyecto.
-Ejecuta la aplicación desde tu IDE.
+- Listado de Todos los Libros Registrados: La aplicación permite a los usuarios listar todos los libros registrados en la base de datos.
+
+- Listado de Todos los Autores Registrados: Los usuarios pueden ver una lista de todos los autores registrados en la base de datos.
+
+- Búsqueda de Autores por Año: Los usuarios pueden ingresar un año específico y la aplicación mostrará todos los autores que estuvieron vivos en ese año.
+
+- Búsqueda de Libros por Idioma: Los usuarios pueden buscar libros por idioma. La aplicación proporciona una lista de códigos de idioma disponibles y permite al usuario seleccionar uno para ver los libros disponibles en ese idioma.
+
+# Tecnologías Utilizadas:
+- Spring Boot: Se utiliza para crear la aplicación Java y proporcionar funcionalidades como inyección de dependencias, configuración de la aplicación y acceso a datos.
+
+- PostgreSQL: Se utiliza como base de datos relacional para almacenar información sobre libros y autores.
+
+- Hibernate: Se utiliza como framework de mapeo objeto-relacional (ORM) para facilitar la interacción con la base de datos PostgreSQL desde la aplicación Spring Boot.
+
+- Gutendex API: Se utiliza para obtener datos de libros de dominio público. La aplicación hace llamadas a la API Gutendex para obtener información sobre los libros que coincidan con las consultas de los usuarios.
+
+- JPQL (Java Persistence Query Language): Se utiliza para escribir consultas personalizadas para acceder a datos en la base de datos PostgreSQL desde la capa de persistencia de la aplicación.
+
+# Ejecución de la Aplicación:
+Para ejecutar la aplicación, sigue estos pasos:
+
+- Clona el repositorio de GitHub en tu máquina local.
+
+- Configura una base de datos PostgreSQL en tu entorno local y actualiza la configuración de la base de datos en el archivo application.properties.
+
+- Ejecuta la aplicación utilizando Maven o tu IDE favorito.
+
+- Una vez que la aplicación esté en funcionamiento, podrás acceder a las diferentes funcionalidades de búsqueda de libros desde la consola.
 
 # Uso
-Abre la aplicación en tu IDE.
-Selecciona la moneda de origen y la moneda de destino.
-Ingresa la cantidad que deseas convertir.
-La cantidad convertida se mostrará en la pantalla.
+- Una vez que la aplicación esté en funcionamiento, verás un menú con opciones enumeradas.
+- Selecciona una opción ingresando el número correspondiente y presiona Enter.
+- Dependiendo de la opción seleccionada, la aplicación te pedirá información adicional, como el título del libro, el año para la búsqueda de autores, etc.
+- La aplicación realizará la búsqueda o acción correspondiente y mostrará los resultados en la consola.
 
 # Capturas de Pantalla
 ![Menu conversor](https://github.com/KevinJJurado/ConversorMonedaKevinJurado/assets/128235203/0f00aceb-e421-4b91-9196-41eacdfad867)
@@ -35,7 +57,7 @@ La cantidad convertida se mostrará en la pantalla.
 
 
 # Video Demostrativo
-![videoConversor](https://github.com/KevinJJurado/ConversorMonedaKevinJurado/assets/128235203/11ed64a7-cf7e-45a2-a86f-57d30ae729a6)
+![videoConversor]()
 
 
 # Créditos
