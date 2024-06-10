@@ -31,7 +31,7 @@ public class Principal {
                 3- Listar autores registrados
                 4- Listar autores vivos en un determinado año
                 5- Listar libros por por idioma
-                9- salir
+                0- salir
                 Elija una opción válida;
                 **********************************************
                 """;
