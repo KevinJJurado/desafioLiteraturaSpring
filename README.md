@@ -52,12 +52,13 @@ Para ejecutar la aplicación, sigue estos pasos:
 - La aplicación realizará la búsqueda o acción correspondiente y mostrará los resultados en la consola.
 
 # Capturas de Pantalla
-![Menu conversor](https://github.com/KevinJJurado/ConversorMonedaKevinJurado/assets/128235203/0f00aceb-e421-4b91-9196-41eacdfad867)
-![Funcionamiento](https://github.com/KevinJJurado/ConversorMonedaKevinJurado/assets/128235203/3874bd0b-a394-4932-a30b-0c667c5cfb42)
+
+![Menu litealura](https://github.com/KevinJJurado/desafioLiteraturaSpring/assets/128235203/c48d070e-aef3-4eea-b56c-35e17850e297)
 
 
 # Video Demostrativo
-![videoConversor]()
+![videoConversor](https://github.com/KevinJJurado/desafioLiteraturaSpring/assets/128235203/abc41534-8a09-460a-99f3-1b860b681778)
+
 
 
 # Créditos
